@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b2b2b"
+    android:orientation="vertical"
+    tools:context="com.example.shobhitsagar.welcomeui.MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/mylogo"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="387dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:textColorHint="#969292"
+        android:paddingBottom="18dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        tools:layout_conversion_absoluteX="14dp"
+        tools:layout_conversion_absoluteY="265dp"
+        tools:layout_conversion_absoluteWidth="381dp"
+        tools:layout_conversion_absoluteHeight="49dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        tools:layout_editor_absoluteY="259dp"
+        tools:layout_editor_absoluteX="14dp" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="386dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:textColorHint="#969292"
+        android:paddingBottom="18dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        tools:layout_conversion_absoluteX="14dp"
+        tools:layout_conversion_absoluteY="324dp"
+        tools:layout_conversion_absoluteWidth="381dp"
+        tools:layout_conversion_absoluteHeight="49dp"
+        tools:layout_editor_absoluteY="319dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="387dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:textColorHint="#969292"
+        android:paddingBottom="18dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        tools:layout_conversion_absoluteX="14dp"
+        tools:layout_conversion_absoluteY="383dp"
+        tools:layout_conversion_absoluteWidth="381dp"
+        tools:layout_conversion_absoluteHeight="49dp"
+        tools:layout_editor_absoluteY="386dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/crtacnt2"
+        android:layout_width="376dp"
+        android:layout_height="54dp"
+        android:background="@drawable/btn_purple"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:layout_conversion_absoluteHeight="54dp"
+        tools:layout_conversion_absoluteWidth="381dp"
+        tools:layout_conversion_absoluteX="14dp"
+        tools:layout_conversion_absoluteY="482dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:layout_editor_absoluteX="17dp" />
+
+    <Button
+        android:id="@+id/back_to_login2"
+        android:layout_width="370dp"
+        android:layout_height="54dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_silver"
+        android:text="Log In"
+        tools:layout_conversion_absoluteX="14dp"
+        tools:layout_conversion_absoluteY="547dp"
+        tools:layout_conversion_absoluteWidth="381dp"
+        tools:layout_conversion_absoluteHeight="54dp"
+        tools:layout_editor_absoluteY="536dp"
+        tools:layout_editor_absoluteX="21dp" />
+
+
+</android.support.constraint.ConstraintLayout>
